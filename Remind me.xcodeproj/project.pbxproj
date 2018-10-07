@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		A334B85D216A0C59006DB496 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A334B85C216A0C59006DB496 /* AppDelegate.swift */; };
-		A334B85F216A0C59006DB496 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A334B85E216A0C59006DB496 /* ViewController.swift */; };
+		A334B85F216A0C59006DB496 /* RemindersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A334B85E216A0C59006DB496 /* RemindersController.swift */; };
 		A334B862216A0C59006DB496 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A334B860216A0C59006DB496 /* Main.storyboard */; };
 		A334B864216A0C5B006DB496 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A334B863216A0C5B006DB496 /* Assets.xcassets */; };
 		A334B867216A0C5B006DB496 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A334B865216A0C5B006DB496 /* LaunchScreen.storyboard */; };
+		A334B86F216A15A7006DB496 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A334B86E216A15A7006DB496 /* Reminder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A334B859216A0C59006DB496 /* Remind me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Remind me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A334B85C216A0C59006DB496 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A334B85E216A0C59006DB496 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A334B85E216A0C59006DB496 /* RemindersController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersController.swift; sourceTree = "<group>"; };
 		A334B861216A0C59006DB496 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A334B863216A0C5B006DB496 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A334B866216A0C5B006DB496 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A334B868216A0C5B006DB496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A334B86E216A15A7006DB496 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				A334B85C216A0C59006DB496 /* AppDelegate.swift */,
-				A334B85E216A0C59006DB496 /* ViewController.swift */,
+				A334B85E216A0C59006DB496 /* RemindersController.swift */,
 				A334B860216A0C59006DB496 /* Main.storyboard */,
+				A334B86E216A15A7006DB496 /* Reminder.swift */,
 				A334B863216A0C5B006DB496 /* Assets.xcassets */,
 				A334B865216A0C5B006DB496 /* LaunchScreen.storyboard */,
 				A334B868216A0C5B006DB496 /* Info.plist */,
@@ -135,7 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A334B85F216A0C59006DB496 /* ViewController.swift in Sources */,
+				A334B86F216A15A7006DB496 /* Reminder.swift in Sources */,
+				A334B85F216A0C59006DB496 /* RemindersController.swift in Sources */,
 				A334B85D216A0C59006DB496 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
